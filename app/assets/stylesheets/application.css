@@ -8,3 +8,44 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+* {
+  box-sizing: content-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Open Sans", "freesans", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.15;
+  color: #555;
+  background-color: #fff;
+  margin: 1rem 1rem 2rem;
+}
+.single-btn {
+  display: inline-block;
+}
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.5em 1em;
+  border: 1px solid #555;
+  background: #fff;
+  color: #555;
+  text-decoration: none;
+  border-radius: 0.2em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #555;
+  color: #fff;
+  text-decoration: none;
+}
+.btn + .btn {
+  margin-left: 0.5rem;
+}
+
